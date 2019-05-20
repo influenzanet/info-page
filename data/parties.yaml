@@ -1,0 +1,24 @@
+- name: ISI Foundation
+  link: https://www.isi.it/en/home
+  location: Turin, Italy
+  role:  project lead and coordination
+  img: ./images/logo_isi.svg
+  img_alt: ISI Logo
+- name: DFKI - German Center for Artificial Intelligence
+  link: https://www.dfki.de/en/web/
+  location: Kaiserslautern, Germany
+  role: Research of technologies for privacy preserving, participatory data collection; master’s, bachelor thesis and student projects around Influenzanet 2.0
+  img:  ./images/logo_dfki.png
+  img_alt: DFKI Logo
+- name: INSERM
+  link: https://www.inserm.fr/en
+  location: Sorbonne Université, Institut Pierre Louis d'Epidemiologie et de Santé Publique Paris, France
+  role: Requirements engineering, development of data analytics methods
+  img: ./images/logo_inserm.png
+  img_alt: INSERM Logo
+- name: coneno
+  link: https://coneno.com/
+  location: Germany
+  role: Technical infrastructure and software development
+  img: ./images/logo_coneno.png
+  img_alt: coneno Logo

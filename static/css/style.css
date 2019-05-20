@@ -1,0 +1,18 @@
+
+.main-content {
+    min-height: 80vh;
+    margin-top: 80px;
+}
+
+article {
+  margin-top: 50px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  padding: 10px;
+  border: 0px;
+}
