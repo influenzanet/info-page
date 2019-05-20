@@ -1,3 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "http://influenzanet.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "InfluenzanNet 2.0"
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"

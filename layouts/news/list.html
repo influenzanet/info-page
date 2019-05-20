@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-11 col-md-8">
+
+            {{ range .Pages }}
+            <article>
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <p class="text-secondary">{{ .Date.Format "January 2, 2006" }} - ca. {{ .FuzzyWordCount }} Words</p>
+                {{ .Summary }}
+                {{/*  <p>{{ .Content }}</p>  */}}
+                {{ if .Truncated }}
+                <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+                <div>
+                    <a href="{{ .RelPermalink }}">Read More…</a>
+                </div>
+                {{ end }}
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

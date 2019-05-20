@@ -1,7 +1,10 @@
 ---
-title: "Influenzanet 2.0 - Docs"
+title: "Docs"
 date: 2019-03-26T12:07:55+01:00
 draft: false
+menu:
+  main:
+    weight: 10
 ---
 
 # Documentation
