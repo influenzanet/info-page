@@ -17,7 +17,7 @@
 
     {{ $sass := resources.Get "sass/main.scss" }}
     {{ $style := $sass | resources.ToCSS (dict "outputStyle" "compressed" "enableSourceMap" true) | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" media=”screen”>
+    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>
 
 <body>
