@@ -1,6 +1,7 @@
 baseURL = "https://influenzanet.github.io/"
 languageCode = "en-us"
 title = "InfluenzanNet 2.0"
+pygmentsCodeFences = true
 
 [[menu.main]]
   name = "Home"

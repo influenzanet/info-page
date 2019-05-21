@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Token-based Authentication
 date: 2019-05-17T12:29:54+01:00
 draft: false
