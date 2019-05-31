@@ -35,31 +35,38 @@ We started with creating the sign-up module, having the long-term goal of attrac
 
 Next step was to actually write tests. In the examples below, you can see how we checked whether a certain word is included in our page (in this case, “Email” in the first example), and how we would check whether the system would reject an invalid email address (second example), and accept a valid one (third example).
 
-**Example 1:**
-
-```js
-it(`should have as text 'Email'`, async(() => {
-    expect(comp.text).toEqual('Email');
-}));
-```
-
-**Example 2:**
-
-```js
-it(`should not accept invalid email`, async(() => {
-    comp.signUpForm.controls['email'].setValue('www.john-doe.come');
-    expect(comp.signUpForm.valid).toBeFalsy();
-}));
-```
-
-**Example 3:**
-
-```js
-it(`should accept valid email`, async(() => {
-    comp.signUpForm.controls['email'].setValue('john@doe.com');
-    expect(comp.signUpForm.valid).toBeTruthy();
-}));
-```
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-one-tab" data-toggle="tab" href="#nav-one" role="tab" aria-controls="nav-one" aria-selected="true">Example 1:</a>
+    <a class="nav-item nav-link" id="nav-two-tab" data-toggle="tab" href="#nav-two" role="tab" aria-controls="nav-two" aria-selected="false">Example 2:</a>
+    <a class="nav-item nav-link" id="nav-three-tab" data-toggle="tab" href="#nav-three" role="tab" aria-controls="nav-three" aria-selected="false">Example 3:</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+  ```js
+  it(`should have as text 'Email'`, async(() => {
+      expect(comp.text).toEqual('Email');
+  }));
+  ```
+  </div>
+  <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab">
+  ```js
+  it(`should not accept invalid email`, async(() => {
+      comp.signUpForm.controls['email'].setValue('www.john-doe.come');
+      expect(comp.signUpForm.valid).toBeFalsy();
+  }));
+  ```
+  </div>
+  <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab">
+  ```js
+  it(`should accept valid email`, async(() => {
+      comp.signUpForm.controls['email'].setValue('john@doe.com');
+      expect(comp.signUpForm.valid).toBeTruthy();
+  }));
+  ```
+  </div>
+</div>
 
 **Our story: challenges**
 As the system and its provided features grow, so does the number of tests: every new module brings along its related tests, and over time we come up with new ideas on further assessment of old modules. This is the beauty of automated testing; we get more confident about our system as more and more tests are passing, and the cost of running those tests does not increase significantly.
@@ -71,4 +78,3 @@ Seeing certain tests failing is a natural part of the process. But when a test k
 Unfortunately, this is not always possible, as the original author might not be present at that time. In such cases, one bad approach would be to simply remove the tests that are not passing (“after all, we don’t know what was meant to happen here!”). However, there are practices to follow to avoid such situations. One of the strategies, we have learned to employ is to emphasize the importance of documenting the tests we write: even if the author of a test is present, the test should be self-explanatory. We are looking for other tactics as well, and we are positive that as the challenges we face grow, so does our level of expertise.
 
 *Ala Harirchi*
-
