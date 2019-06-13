@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         <div class="col-11 col-md-8">
             <h1 style="display: inline;">InfluenzaNet's Blog</h1>
-            <a href="{{ .RSSLink }}"><i class="fas fa-rss-square" style="color: #ee802f;"></i></a>
+            <a target="_blank" href="{{ .RSSLink }}"><i class="fas fa-rss-square" style="color: #ee802f;"></i></a>
             {{ range .Pages }}
             <article style="margin-top: 50px;">
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
