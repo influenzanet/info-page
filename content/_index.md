@@ -67,16 +67,16 @@ The following parties are currently the main active contributors or contractors 
 * <a href="https://coneno.com" target="_blank">coneno</a>, Germany - *technical infrastructure and software development*
 -->
 
-## Roadmap for 2019
+## Roadmap for 2020
 <div style="width: 100%; padding: 30px">
 <img src="/images/roadmap.png" alt="roadmap" width="100%">
 </div>
-2019 Q1 - Implementation work on cloud infrastructure, deployment workflows, user management services - setting up frontend development
+2020 Q1 - Implementation work on cloud infrastructure, deployment workflows, user management services - setting up frontend development
 
-2019 Q2 - Implementation work on study and survey system on the backend side and frontend (webapp) for participants and instance managers (researcher/admin)
+2020 Q2 - Implementation work on study and survey system on the backend side and frontend (webapp) for participants and instance managers (researcher/admin)
 
-2019 Q3 - Launch of the first test deployment for participants (public beta) - Refinements on user management - Data analytics services - Bug fixes - Prepare for production launch
+2020 Q3 - Launch of the first test deployment for participants (public beta) - Refinements on user management - Data analytics services - Bug fixes - Prepare for production launch
 
-2019 Q3 end - Launch of the new production system (stable release)
+2020 Q3 end - Launch of the new production system (stable release)
 
 2019 Q4 - Maintaining and monitoring system - Bug fixes - Next round of ideas for upcoming features
