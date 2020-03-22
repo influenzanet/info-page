@@ -79,4 +79,4 @@ The following parties are currently the main active contributors or contractors 
 
 2020 Q3 end - Launch of the new production system (stable release)
 
-2019 Q4 - Maintaining and monitoring system - Bug fixes - Next round of ideas for upcoming features
+2020 Q4 - Maintaining and monitoring system - Bug fixes - Next round of ideas for upcoming features
